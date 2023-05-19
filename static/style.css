@@ -4,15 +4,11 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .page {
     width: 100%;
     height: auto;
     display: flex;
-
-    border: 2px black dotted;
 }
-
 
 /* menu bar styling */
 .menu-bar {
@@ -33,7 +29,6 @@ body {
     float: left;
     overflow: hidden;
 }
-
 .drop-content {
     display: none;
     position: relative;
@@ -53,7 +48,6 @@ body {
     display: block;
     text-decoration: none;
     text-align: left;
-
 }
 .drop-content a:hover {
     font-weight: bold;
@@ -66,18 +60,15 @@ body {
 }
 
 /* hamburger menu */
-
 a {
     text-decoration: none;
     color: black;
   
     transition: color 0.3s ease;
 }
-
 a:hover {
   font-style: bold;
 }
-
 #hamburger-toggle {
     display: block;
     position: fixed;
@@ -89,7 +80,6 @@ a:hover {
     -webkit-user-select: none;
     user-select: none;
 }
-
 #hamburger-toggle input {
     display: block;
     width: 40px;
@@ -127,11 +117,9 @@ a:hover {
     
     box-shadow: 0 0 5px white;
 }
-
 #hamburger-toggle span:first-child {
     transform-origin: 0% 0%;
 }
-
 #hamburger-toggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
 }
@@ -143,18 +131,14 @@ a:hover {
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
 }
-
 #hamburger-toggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
-
 #hamburger-toggle input:checked ~ span:nth-last-child(2) {
     opacity: 1;
     transform: rotate(-45deg) translate(0, -1px);
 }
-
-
 #hamburger-content {
     position: absolute;
     width: 300px;
@@ -173,7 +157,6 @@ a:hover {
     
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
-
 #hamburger-content li {
     padding: 20px 0px;
     font-size: 17px;
@@ -187,7 +170,6 @@ a:hover {
     transform: none;
     opacity: 1;
 }
-
 @media screen and (max-width: 768px) {
     #hamburger-content {
         transform: none;
@@ -197,35 +179,17 @@ a:hover {
     }
 }
 
-/* arrow styling */
-.arrow-down {
-    box-sizing: border-box;
-    height: 2px;
-    width: 2px;
-    border-style: solid;
-    border-color: black;
-    border-width: 0px 1px 1px 0px;
-    transform: rotate(45deg);
-    display: inline-block;
-    padding: 2px;
-
-}
-
 /* title page styling */
 .title-container {
     position: relative;
     display: flex;
     width: 100%;
     height: 100vh;
-
     align-items: center;
     justify-content: center;
-
-    border: 2px black dotted;
 }
 .title {
     text-align: center;
-
     font-size: 85px;
     font-family: inherit;
     font-style: normal;
@@ -236,7 +200,6 @@ a:hover {
 }
 .subtitle {
     text-align: center;
-
     font-size: 40px;
     font-family: inherit;
     font-style: normal;
@@ -256,63 +219,44 @@ a:hover {
     width: 100%;
     top: 0;
     left: 0;
-
-    border: black 2px dotted;
 }
 .homepage-title-container {
     position: relative;
     display: flex;
-
     width: 70%;
     height: 100vh;
-
     left: 29%;
-
     align-items: center;
     justify-content: right;
-
-    border: 2px black dotted;
 }
 #homepage-subtitle {
     text-align: right;
 }
 .mainsub-block {
     position: absolute;
-
     width: 100%;
-
     margin: auto;
     height: auto;
-
     top: 120%;
-
-    border: 2px black dotted;
 }
 .mainsub-block1 {
     position: relative;
     width: 85%;
     height: auto;
     left: 5%;
-
-    border: 2px black dotted;
 }
 .sub-body-title {
     position: relative;
     width: 100%;
     top: 0;
-
     font-weight: bold;
     font-size: 40px;
     line-height: 50px;
-
-    border: black 2px dotted;
 }
 .sub-body-subtitle {
     font-weight: 400;
     font-size: 32px;
     line-height: 40px;
-
-    border: 2px black dotted;
 }
 #right-align {
     text-align: right;
@@ -322,24 +266,23 @@ a:hover {
     position: relative;
     display: flex;
     justify-content: center;
-
+    align-items: center;
     margin: auto;
     width: 100%;
-
-
-    border: 2px black dotted;
 }
 .mainsub-text1 {
     position: relative;
     height: auto;
-
     font-family: inherit;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
-
-    border: black 2px dotted;
+}
+.mainsub-image1 img{
+    display: flex;
+    float: left;
+    width: 100%;
 }
 #homepage-text1 {
     display: flex;
@@ -354,27 +297,19 @@ a:hover {
     height: auto;
     width: 75%;
     left: 14.7%;
-
     background-color: #F5F5F5;
-
-    border: 2px black dotted;
 }
 .mainsub-link2 {
     position: relative;
     width: 40%;
     text-align: right;
     margin-left: 60%;
-
-
     font-family: inherit;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px; 
-
-    border: 2px black dotted;
 }
-
 .mainsub-link2 a {
     text-align: right;
     text-decoration: none;
@@ -385,34 +320,24 @@ a:hover {
 }
 
 /* looking section styling */
-#looking-block {
-    top: 105%;
-}
 .looking-block-home {
     position: relative;
     width: 80%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-
-    border: 2px black dotted;
 }
 .looking-subtitle {
     position: relative;
     width: 60%;
-
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
-
-    border: 2px black dotted;
 }
 .looking-link {
     position: relative;
     width: 25%;
-
     font-size: 24px;
-    border: 2px black dotted;
 }
 .looking-link a {
     text-align: right;
@@ -421,15 +346,6 @@ a:hover {
 }
 .looking-link a:hover {
     text-decoration: underline;
-}
-.bike-route-categories {
-    position: relative;
-
-    width: 90%;
-    height: auto;
-    margin: auto;
-
-    border: 2px black dotted;
 }
 .text {
     position: absolute;
@@ -447,23 +363,15 @@ a:hover {
 
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-    border: 2px black dotted;
 }
 .bike-route-1-category {
     width: 55%;
     margin: auto;
-
-    border: 2px black dotted;
-
 }
 .bike-route-1-category img {
     position: relative;
     width: 100%;
-
-    border: 2px black dotted;
 }
-
 
 /* tips home-page styling */
 .tips-home {
@@ -475,8 +383,6 @@ a:hover {
     width: 100%;
     top: 0;
     left: 0;
-
-    border: black 2px dotted;
 }
 #tips-image{
     width: 200%;
@@ -486,22 +392,6 @@ a:hover {
 }
 
 /* page body styling */
-.sub-body {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    top: 134%;
-    left: 0%;
-    z-index: -100;
-
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 29px;
-    font-weight: 400;
-
-    border: 2px black dotted;
-}
 .sub-body-title {
     position: relative;
     width: 100%;
@@ -510,197 +400,15 @@ a:hover {
     font-weight: bold;
     font-size: 40px;
     line-height: 50px;
-
-    border: black 2px dotted;
 }
 .sub-body-subtitle {
     font-weight: 400;
     font-size: 32px;
     line-height: 40px;
-
-    border: 2px black dotted;
 }
 #right-align {
     text-align: right;
     left: 0;
-}
-.mainsub-block {
-    position: absolute;
-
-    width: 100%;
-
-    margin: auto;
-    height: auto;
-
-    top: 120%;
-
-    border: 2px black dotted;
-}
-.mainsub-block1 {
-    position: relative;
-    width: 85%;
-    height: auto;
-    left: 5%;
-
-    border: 2px black dotted;
-}
-
-.content {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 100%;
-
-
-    border: 2px black dotted;
-}
-
-
-
-.mainsub-text1 {
-    position: relative;
-    height: auto;
-
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-
-    border: black 2px dotted;
-}
-#homepage-text1 {
-    display: flex;
-    float: left; 
-    width: auto;
-    margin-right: 2%;
-    margin-left: 2%;
-}
-
-
-
-.mainsub-image1 img{
-    display: flex;
-    float: left;
-    width: 100%;
-
-}
-
-
-.mainsub-link1 {
-    position: relative;
-    width: 214px;
-    height: 30px;
-    left: 78%;
-    top: 26%;
-}
-#link-rent {
-    left: 73.15%;
-    top: 14.5%;
-
-}
-.mainsub-link1 a {
-    text-decoration: none;
-    color: black;
-}
-.mainsub-link1 a:hover {
-    text-decoration: underline;
-}
-.mainsub-block2-bg {
-    position: relative;
-    padding: 5%;
-
-    height: auto;
-    width: 75%;
-    left: 14.7%;
-
-
-    background-color: #F5F5F5;
-
-    border: 2px black dotted;
-}
-.mainsub-block2 {
-
-    position: relative;
-    width: 1290px;
-    height: 406px;
-    left: 0%;
-    top: 10%;
-}
-#homepage-block2 {
-    top: 13%;
-    height: 450px;
-}
-.mainsub-text2 {
-    position: relative;
-    width: 718px;
-    height: 150px;
-    left: 1%;
-    top: 25%;
-
-    text-align: right;
-}
-
-.mainsub-image2 img{
-    position: absolute;
-    width: 470px;
-    height: 242px;
-    left: 60%;
-    top: 34%;
-}
-.clear {
-    clear: both;
-}
-.mainsub-link2 {
-    position: relative;
-    width: 40%;
-    text-align: right;
-    margin-left: 60%;
-
-
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-
-
-
-
-    
-}
-#homepage-link2 {
-    left: 39%;
-    top: 24.7%;
-}
-.mainsub-link2 a {
-    text-align: right;
-    text-decoration: none;
-    color: black;
-}
-.mainsub-link2 a:hover {
-    text-decoration: underline;
-}
-.mainsub-block3 {
-    position: relative;
-    height: 485px;
-    margin-left: 8%;
-    margin-right: auto;
-    top: 15%;
-}
-.mainsub-text3 {
-    position: relative;
-    width: 705px;
-    height: 410px;
-    left: 38%;
-    top: 5%;
-}
-.mainsub-image3 img{
-    position: absolute;
-    width: 420px;
-    height: 260px;
-    left: 1.25%;
-    top: 36.5%;
 }
 
 /* road rules styling */
@@ -744,71 +452,10 @@ a:hover {
 .road-sign-image {
     width: 100%;
     margin: auto;
-
-    border: 2px black dotted;
 }
 .road-sign-image img {
     position: relative;
     width: 100%;
-}
-
-
-
-
-.tip-block span {
-    position: relative;
-    font-size: 70px;
-    top: 40%;
-    left: 3%;
-}
-.tip-text {
-    position: absolute;
-    width: 1110px;
-    height: 50px;
-    padding: 2%;
-    top: 23%;
-    left: 9%;
-}
-.tip-block2 {
-    position: relative;
-    width: 1290px;
-    height: 600px;
-    left: 5%;
-    top: 15%;
-}
-.tip-text2 {
-    position: relative;
-    width: 800px;
-    height: 400px;
-    left: 2%;
-    top: 10%;
-}
-#parking-image img {
-    width: 350px;
-    height: 276px;
-    left: 70%;
-    top: 20%;
-}
-.tip-block3 {
-    position: relative;
-    width: 1290px;
-    height: 800px;
-    left: 5%;
-    top: 15%;  
-}
-#roadsigns {
-    width: 650px;
-    top: 15%;
-    left: 25%;
-
-    text-align: center;
-}
-.roadsigns-image img {
-    position: absolute;
-    width: 950px;
-    height: 510px;
-    left: 15%;
-    top: 30%;
 }
 
 /* biking vs public transport styling */
@@ -821,29 +468,19 @@ a:hover {
     width: 100%;
     top: 0;
     left: 0;
-
-    border: black 2px dotted;
 }
 .intro-paragraph {
     position: relative;
     width: 80%;
     margin: auto;
-
     height: auto;
-
     top: 20%;
 
     font-weight: 400;
     font-size: 23.5px;
     line-height: 35px;
-
-
     text-align: center;
-
-    border: 2px black dotted;
-
 }
-
 .subpage1-title {
     position: relative;
     width: 100%;
@@ -855,18 +492,10 @@ a:hover {
 }
 .mainsub-block-reason {
     position: relative;
-
     width: 100%;
-
     margin: auto;
     height: auto;
-
-    border: 2px black dotted;
-
-
 }
-
-
 #fivereasons {
     top: 40%;
 }
@@ -893,172 +522,6 @@ a:hover {
     top: 108%;
 }
 
-
-
-
-
-.subpage1-subtitle1 {
-    position: relative;
-
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-}
-
-.subpage1-block1 {
-    position: relative;
-    width: 1290px;
-    height: 340px;
-    left: 10%;
-    top: 15%;
-
-    background-color: #FAFAFA;
-}
-.subpage1-text1 {
-    position: relative;
-    width: 919px;
-    height: 153px;
-    left: 20%;
-    top: 25%;
-}
-.subpage1-number1 img{
-    position: relative;
-    width: 150px;
-    height: 182px;
-    margin-top: -8.65%;
-    margin-left: 5%;
-}
-.subpage1-block2 {
-    position: relative;
-    width: 1290px;
-    height: 340px;
-    left: 0%;
-    top: 20%;
-
-    background-color: #FAFAFA;
-}
-
-.subpage1-subtitle2 {
-    position: relative;
-    width: 895px;
-    height: 36px;
-    left: 15%;
-    top: 30.5%;
-
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-}
-.subpage1-text2 {
-    position: relative;
-
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29.05px;
-
-}
-.subpage1-number2 {
-    position: relative;
-    width: 150px;
-    height: 182px;
-    left: 86%;
-    top: -18.5%;
-}
-.subpage1-block3 {
-    position: relative;
-    width: 1290px;
-    height: 340px;
-    left: 10%;
-    top: 25%;
-
-    background-color: #FAFAFA;
-}
-#subtitle3 {
-    top: 33.5%;
-}
-.subpage1-text3 {
-    position: relative;
-    width: 919px;
-    height: 63px;
-    left: 20%;
-    top: 38.5%;
-}
-.subpage1-number3 {
-    position: relative;
-    width: 150px;
-    height: 182px;
-    left: 6.5%;
-    top: -4%;
-}
-.subpage1-block4 {
-    position: relative;
-    width: 1290px;
-    height: 340px;
-    left: 0%;
-    top: 30%;
-
-    background-color: #FAFAFA;
-}
-#subtitle4 {
-    top: 29.5%;
-}
-.subpage1-text4 {
-    position: relative;
-    width: 919px;
-    height: 87px;
-    left: 13.154%;
-    top: 33.5%;
-}
-.subpage1-number4 {
-    position: relative;
-    width: 150px;
-    height: 182px;
-    left: 86%;
-    top: -13%;
-}
-.subpage1-block5 {
-    position: relative;
-    width: 1290px;
-    height: 340px;
-    left: 10%;
-    top: 35%;
-
-    background-color: #FAFAFA;
-}
-.subpage1-text5 {
-    position: relative;
-    width: 895px;
-    height: 122px;
-    left: 20%;
-    top: 25%;
-}
-.subpage1-number5 {
-    position: relative;
-    width: 150px;
-    height: 182px;
-    left: 6.5%;
-    top: -23.55%;
-}
-
-.subpage1-link {
-    position: relative;
-    width: 300px;
-    height: 30px;
-    left: 20%;
-    top: -30.5%;
-}
-.subpage1-link a {
-    text-align: right;
-    text-decoration: none;
-    color: black;
-}
-.subpage-link2 a:hover {
-    text-decoration: underline;
-}
-
-
-
-
 /* west side story page styling */
 .westside-home {
     background-image: url("westside-home.png");
@@ -1069,8 +532,6 @@ a:hover {
     width: 100%;
     top: 0;
     left: 0;
-
-    border: black 2px dotted;
 }
 #map-block {
     top: 40%;
@@ -1079,8 +540,6 @@ a:hover {
     width: 70%;
     left: 0;
     margin: auto;
-
-
 }
 #begin-route {
     width: 100%;
@@ -1093,52 +552,13 @@ a:hover {
 #places-size {
     width: 80%
 }
-.map iframe {
-    position: relative;
-    width: 930px;
-    height: 400px;
-    top: -10%;
-    left: 15%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-.rent-map img{
-    position: relative;
-    width: 750px;
-    height: 450px;
-    left: 21%;
-}
-.row {
-    position: relative;
-    
-    width: 100%;
-    height: 100%;
-
-    border: 2px black dotted;
-}
-.box {
-    position: relative;
-    width: 20%; 
-    height: 30%;
-    margin: 0.5%;
-    float: left;
-
-
-    border: 4px black solid;
-    border-radius: 10px;
-
-
-}
 .route-locations {
     position: relative;
     width: 31.5%;
     height: 60vh;
     margin: 0.5%;
     float: left;
-
     border-radius: 10px;
-
-    border: 2px black dotted;
 }
 .stop-image {
     display: block;
@@ -1203,7 +623,6 @@ a:hover {
     visibility: visible;
     opacity: 0.7;
 }
-
 .place-title {
     position: relative;
     padding-top: 3%;
@@ -1219,69 +638,11 @@ a:hover {
     letter-spacing: -0.02em;
 
     overflow: auto;
-
-    border: 2px black dotted;
 }
 .route-locations:hover #location-name {
     visibility: hidden;
 }
-/* true grit page styling */
-.truegrit-home {
-    background-image: url("truegrit-home.png");
-    position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    top: 0;
-    left: 0;
-}
-.horizontal-center {
-    position: relative;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 
-    border: 2px black dotted;
-}
-
-
-
-
-.route-description-container {
-    width: 1010px;
-    display: flex;
-    justify-content: center;
-
-    position: relative;
-}
-.route-description-content {
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-    line-height: 29px;
-}
-.route-description2 {
-    position: relative;
-    width: 1009px;
-    height: 115px;
-    left: 13.5%;
-    top: 0%;
-
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-    line-height: 29px;
-
-    border: 2px black dotted;
-}
 /* rent-a-bike page styling */
 .rent-home {
     background-image: url("rental-home.png");
@@ -1292,8 +653,6 @@ a:hover {
     width: 100%;
     top: 0;
     left: 0;
-
-    border: black 2px dotted;
 }
 .box {
     position: relative;
@@ -1319,18 +678,12 @@ a:hover {
     z-index: -1;
     border-radius: 10px;
 }
-
-
-
-
 .info-box {
     position: relative;
     top: 60%;
     height: auto;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
-
-    border: 2px black dotted;
 }
 .price {
     float: right;
@@ -1347,9 +700,6 @@ a:hover {
     text-align: center;
     font-weight: 600;
     font-family: inherit;
-
-    border: 2px black dotted;
-
 }
 
 /* page footer styling */
