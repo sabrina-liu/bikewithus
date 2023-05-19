@@ -1,0 +1,85 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <!--main page of road rules-->
+    <div class="page">
+        <div class="roadrules-home">
+            <div class="title-container">
+                <div class="title">RULES OF THE ROAD<br>
+                <div class="subtitle">Things to remember</div>
+            </div>
+        </div>
+
+        <!--first block of the road rules; triangles-->
+        <div class="mainsub-block">
+            <div class="mainsub-block1">
+                <div class="sub-body-title">TRIANGLES<br>
+                <div class="sub-body-subtitle">What do they mean?</div>
+                <div class="content">
+                    <div class="mainsub-image1" id="tips-image2">
+                        <img src="static/triangles.png" alt="bike-image">
+                    </div>
+                    <div class="mainsub-text1" id="homepage-text1">
+                        While biking, you will notice some funny triangles drawn on the path at intersections. *This is to illustrate
+                        who has right of way.* If it faces away from you, you have right of way to keep biking. However, if it points
+                        to you, you have to brake and give way to passing bikes
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--second block of the road rules; tips block-->
+        <div class="tip-block">
+            <div class="content">
+                <div class="mainsub-image1"><span>&#9888;</span></div>
+                <div class="mainsub-text1" id="homepage-text1">
+                    *Always, always, always stay on the right!* Make sure there is enough space on your left for faster cyclists
+                    to overtake. The worst mistake you can make is to bike in the middle of the bike path.
+                </div>
+            </div>
+        </div>
+
+        <!--third block of the road rules; parking-->
+        <div class="mainsub-block">
+            <div class="mainsub-block1">
+                <div class="sub-body-title">PARKING<br>
+                <div class="sub-body-subtitle">Where and how to park correctly</div>
+                <div class="content">
+                    <div class="mainsub-text1" id="homepage-text2">
+                        You will come to find that parking is a bit of an issue in Amsterdam. However, you are usually able to park your
+                        bike right infront of your destination. <br><br>
+                        Here are some things to note:
+                            <br>
+                            1. *Park in designated racks* or painted boxes, or look at where bikes are clustered and park there
+                            (usually fences/walls/bridges)
+                            <br><br>
+                            2. *Don't block the sidewalk* or park right infront of a shop window
+                            <br><br>
+                            3. The signs that say "P Fiets in de rekken max 14 degen" mean you have to park your bike in the racks
+                            (or it will be removed) and you cannot leave it longer than 14 days
+                    </div>
+                    <div class="mainsub-image1" id="park-image">
+                        <img src="static/parking.png" alt="park-sign-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--fourth block of the road rules; road signs-->
+        <div class="mainsub-block">
+            <div class="mainsub-block1" id="roadrule-end">
+                <div class="sub-body-title" id="roadrule-title">IMPORTANT BIKE ROAD SIGNS</div>
+                <div class="road-sign-image" id="roadrule-title">
+                    <img src="static/road_signs.png" alt="road-signs-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+{% endblock %}

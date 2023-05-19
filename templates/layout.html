@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale = 1, width=device-width">
+        <link rel="stylesheet" href="/static/style.css">
+        <title>BIKE WITH US</title>
+    </head>
+    <body>
+        {% block body %} {% endblock %}
+        <!-- This is the menu bar-->
+        <!-- Home button -->
+        <div class="menu-bar">
+            <nav role="navigation">
+                <div id="hamburger-toggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            
+                    <ul id="hamburger-content">
+                        <div class="dropdown">
+                                    <li><a href="/">HOME</a></li>
+                            <div class="drop-content" id="home">
+                                <a href="/#whybike">WHY BIKE?</a>
+                                <a href="bikingvspublictransport">BIKING VS PUBLIC TRANSPORT</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown" id="menu-item">
+                                    <li><a href="westsidestory">BIKE ROUTE</a></li>
+                        </div>
+
+                        <div class="dropdown" id="menu-item">
+                                    <li><a href="tips">PRACTICAL TIPS</a></li>
+                            <div class="drop-content">
+                                <a href="tips#gear-up">GEAR UP</a>
+                                <a href="roadrules">RULES OF THE ROAD</a>
+                                <a href="tips#general-tips">GENERAL TIPS</a>
+                            </div>
+                        </div>
+
+                        <a href="rental">
+                            <li>BIKE RENTALS</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </body>
+</html>

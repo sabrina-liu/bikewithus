@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <!--main page of homepage-->
+    <div class="page">
+        <div class="homepage">
+            <div class="homepage-title-container">
+                <div class="subtitle" id="homepage-subtitle">Welcome to Amsterdam<br>
+                <div class="title">THE BIKING CAPITAL</div>
+            </div>
+        </div>
+
+        <!--first block of the homepage; explore the city by bike-->
+        <div class="mainsub-block"><a id="whybike"></a>
+            <div class="mainsub-block1">
+                <div class="sub-body-title">EXPLORE THE CITY BY BIKE<br>
+                <div class="sub-body-subtitle">Experience the iconic biking culture of the city.</div>
+                <div class="content">
+                    <div class="mainsub-image1">
+                        <img src="static/explorethecitybybike.jpg" alt="bike-image">
+                    </div>
+                    <div class="mainsub-text1" id="homepage-text1">
+                        Amsterdam is a city that truly embraces biking culture, making it one of the best cities
+                        to explore on two wheels. From the stunning canals to the charming neighborhoods, there's no
+                        better way to explore Amsterdam's beauty and history than by bike.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--second block of the homepage; biking vs public transport-->
+        <div class="mainsub-block">
+            <div class="mainsub-block2-bg">
+                <div class="sub-body-title" id="right-align">BIKING VS PUBLIC TRANSPORT<br>
+                <div class="sub-body-subtitle">A guide for choosing your mode of transport</div>
+                <div class="content">
+                    <div class="mainsub-text1" id="homepage-text1">
+                        Amsterdam has an extensive and efficient public transport system, including buses, trams,
+                        and metro lines that can take you anywhere. However, if you're looking for a more unique and
+                        authentic experience, biking is the way to go.
+                    </div>
+                    <div class="mainsub-image1">
+                        <img src="static/publictransport.png" alt="tram-image">
+                    </div>
+                </div>
+                <div class="mainsub-link2">
+                    <b><a href="bikingvspublictransport">FIND OUT MORE</a><span>&#8594;</span></b>
+                </div>
+            </div>
+        </div>
+
+        <!--block for looking for things to do-->
+        <div class="mainsub-block">
+            <div class="looking-block-home">
+                <div class="looking-subtitle">LOOKING FOR THINGS TO DO?</div>
+                <div class="mainsub-text1">
+                    Different routes suitable for all skill levels. Discover Amsterdam, and start your biking adventure today!
+                </div>
+                    
+                <div class="looking-link"><b><a href="sightseeing">FIND OUT MORE</a><span>&#8594;</span></b></div>
+
+                <div class="bike-route-1-category">
+                    <a href="westsidestory"><img src="static/bikeroute.png" alt="park-image"></a><div class="text">West Side Story</div>
+                </div>
+
+                   
+            </div>
+        </div>
+   
+
+
+    </div>
+{% endblock %}
