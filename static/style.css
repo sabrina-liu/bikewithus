@@ -732,7 +732,7 @@ a:hover {
 /* page footer styling */
 .footer {
     background-color: #FAFAFA;
-    position: static;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
