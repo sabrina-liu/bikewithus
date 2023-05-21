@@ -557,8 +557,9 @@ a:hover {
     margin: auto;
 }
 #begin-route {
-    width: 100%;
+    width: auto;
     text-align: center;
+    padding: 2.5%;
     margin: 0;
 }
 #places-position {
@@ -730,63 +731,36 @@ a:hover {
 }
 
 /* page footer styling */
-.footer {
+#footer-home {
     background-color: #FAFAFA;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-  
     font-size: 15px;
-
-    border: 2px black dotted;
-  }
-  .footer-container {
-    display: flex;
-    width: 95%;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-
-    border: 2px black dotted;
-  }
-  .footer-title {
-    margin-left: 3%;
-    padding-top: 3%;
-    width: 15%;
+    margin-bottom: 1.5%;
+}
+#footer-home2 {
+    top: 110%;
+    background-color: #FAFAFA;
+    font-size: 15px;
+    margin-bottom: 1.5%;
+}
+.footer-subcontainer {
+    position: relative; 
+    width: 23.5%;
+    height: auto;
+    margin: 0.5%;
     float: left;
-  
-    font-size: 35px;
-  }
-  .footer-nav {  
-    margin-left: 27%;
-    margin-top: -8%;
-    width: 15%;
-  
-    line-height: 30px;
-  }
-  .footer-subtitle {
-    margin-top: -12%;
-    margin-left: 50%;
-  
-    font-size: 25px;
-  }
-  .images{  
-    width: 24%;
-    margin-left: 50%;
-    margin-top: 2%;
-  }
-  .data{
-    width: 24%;
-    margin-left: 74%;
-    margin-top: -5%
-  }
-   a {
-    text-decoration: none;
-    color: black;
-    line-height: 30px;
-  }
-  a:hover {
+}
+.footer-title {
+    margin-left: 3%;
+    font-size: 30px;
+}
+.footer-subtitle {
+    font-size: 20px;
+}
+a {
+   text-decoration: none;
+   color: black;
+   line-height: 30px;
+}
+a:hover {
     font-weight: bold;
-  }
+}
