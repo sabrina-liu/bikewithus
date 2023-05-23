@@ -38,7 +38,7 @@ body {
     height: auto;
 }
 #home {
-    padding-left: 24%;
+    padding-left: 28%;
 }
 .drop-content a {
     float: none;
@@ -298,6 +298,9 @@ a:hover {
     width: 75%;
     left: 14.7%;
     background-color: #F5F5F5;
+}
+#home-block {
+    top: 130%;
 }
 .mainsub-link2 {
     position: relative;
@@ -736,11 +739,12 @@ a:hover {
     font-size: 15px;
     margin-bottom: 1.5%;
 }
-#footer-home2 {
-    top: 110%;
+#footer-home3 {
+    top: 300%;
     background-color: #FAFAFA;
     font-size: 15px;
     margin-bottom: 1.5%;
+    border: 2px black dotted; 
 }
 .footer-subcontainer {
     position: relative; 

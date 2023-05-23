@@ -134,9 +134,9 @@ def tips():
 def roadrules():
     return render_template("roadrules.html")
 
-@app.route("/bikingvspublictransport")
-def bikingvspublictransport():
-    return render_template("bikingvspublictransport.html")
+@app.route("/fivereasons")
+def fivereasons():
+    return render_template("fivereasons.html")
 
 
 @app.route("/westsidestory")
