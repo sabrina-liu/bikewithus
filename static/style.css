@@ -211,7 +211,7 @@ a:hover {
 
 /* homepage styling */ 
 .homepage {
-    background-image: url("homepage.png");
+    background-image: url("images/homepage.png");
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -378,7 +378,7 @@ a:hover {
 
 /* tips home-page styling */
 .tips-home {
-    background-image: url("tips.png");
+    background-image: url("images/tips.png");
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -416,7 +416,7 @@ a:hover {
 
 /* road rules styling */
 .roadrules-home {
-    background-image: url("roadrules.png");
+    background-image: url("images/roadrules.png");
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -464,7 +464,7 @@ a:hover {
 
 /* biking vs public transport styling */
 .bikingvspublictransport {
-    background-image: url("publictransport.png");
+    background-image: url("images/publictransport.png");
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -542,7 +542,7 @@ a:hover {
 
 /* west side story page styling */
 .westside-home {
-    background-image: url("westside-home.png");
+    background-image: url("images/westside-home.png");
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -586,6 +586,7 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    object-fit: cover;
 
     width: 100%;
     height: 100%;
@@ -671,7 +672,7 @@ a:hover {
 
 /* rent-a-bike page styling */
 .rent-home {
-    background-image: url("rental-home.png");
+    background-image: url("images/rental-home.png");
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
