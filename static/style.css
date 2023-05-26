@@ -41,19 +41,21 @@ body {
     padding-left: 28%;
 }
 .drop-content a {
-    float: none;
     color: black;
     font-size: 12px;
-    padding: 15px 25px;
+    padding: 0px;
     display: block;
     text-decoration: none;
     text-align: left;
+    padding-left: 25px;
 }
 .drop-content a:hover {
     font-weight: bold;
 }
 .dropdown:hover .drop-content {
-    display: block;
+    display: flex;
+    flex-direction: column;
+
 }
 .menu-bar a:hover, .dropdown:hover .hamburger-content li {
     font-weight: bold;
@@ -104,8 +106,9 @@ a:hover {
     margin-bottom: 5px;
     position: relative;
   
-    background: black;
-    border-radius: 3px;
+    background: white;
+    border: 1px solid #171717;
+    border-radius: 25px;
   
     z-index: 1;
   
@@ -115,7 +118,6 @@ a:hover {
                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 opacity 0.55s ease;
     
-    box-shadow: 0 0 5px white;
 }
 #hamburger-toggle span:first-child {
     transform-origin: 0% 0%;
@@ -189,7 +191,6 @@ a:hover {
     justify-content: center;
 }
 .title {
-    text-align: center;
     font-size: 85px;
     font-family: inherit;
     font-style: normal;
@@ -199,19 +200,19 @@ a:hover {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .subtitle {
-    text-align: center;
     font-size: 40px;
     font-family: inherit;
     font-style: normal;
     font-weight: 400;
     color: white;
     line-height: 69px;
+    text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* homepage styling */ 
 .homepage {
-    background-image: url("images/homepage.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/homepage.jpg);
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -219,18 +220,18 @@ a:hover {
     width: 100%;
     top: 0;
     left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .homepage-title-container {
-    position: relative;
-    display: flex;
-    width: 70%;
-    height: 100vh;
-    left: 29%;
+    
     align-items: center;
     justify-content: right;
 }
 #homepage-subtitle {
-    text-align: right;
+    text-align: end;
+    padding-right: 8%;
 }
 .mainsub-block {
     position: absolute;
@@ -241,12 +242,15 @@ a:hover {
 }
 .mainsub-block1 {
     position: relative;
-    width: 85%;
+    width: 80%;
     height: auto;
-    left: 5%;
+    margin: 0 auto;
 }
 .sub-body-title {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     width: 100%;
     top: 0;
     font-weight: bold;
@@ -268,6 +272,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding-top: 15px;
     width: 100%;
 }
 .mainsub-text1 {
@@ -279,6 +284,7 @@ a:hover {
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
+    padding-top: 10px;
 }
 .mainsub-image1 img{
     display: flex;
@@ -326,6 +332,7 @@ a:hover {
 /* looking section styling */
 .looking-block-home {
     position: relative;
+
     width: 80%;
     height: auto;
     margin-left: auto;
@@ -381,7 +388,8 @@ a:hover {
 
 /* tips home-page styling */
 .tips-home {
-    background-image: url("images/tips.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/tips.png);
+
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -419,7 +427,8 @@ a:hover {
 
 /* road rules styling */
 .roadrules-home {
-    background-image: url("images/roadrules.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/roadrules.png);
+
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -467,7 +476,8 @@ a:hover {
 
 /* biking vs public transport styling */
 .bikingvspublictransport {
-    background-image: url("images/explorethecitybybike.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/explorethecitybybike.jpg);
+
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -525,6 +535,7 @@ a:hover {
     padding: 5%;
     background-color: #FAFAFA;
     margin-top: 5%;
+    margin-left: 0;
 }
 #reason1-image {
     width: 35%;
@@ -545,7 +556,8 @@ a:hover {
 
 /* west side story page styling */
 .westside-home {
-    background-image: url("images/westside-home.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/westside-home.png);
+
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -676,6 +688,8 @@ a:hover {
 /* rent-a-bike page styling */
 .rent-home {
     background-image: url("images/rental-home.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/rental-home.png);
+
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -742,6 +756,12 @@ a:hover {
     background-color: #FAFAFA;
     font-size: 15px;
     margin-bottom: 1.5%;
+    padding-bottom: 20px;
+}
+.footer-container {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 #footer-home3 {
     top: 102%;
@@ -763,11 +783,13 @@ a:hover {
 .footer-subtitle {
     font-size: 20px;
 }
+.footer-subtitle a:hover {
+    text-decoration: underline;
+}
 a {
    text-decoration: none;
    color: black;
    line-height: 30px;
 }
 a:hover {
-    font-weight: bold;
 }
