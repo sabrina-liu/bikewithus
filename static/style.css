@@ -211,7 +211,7 @@ a:hover {
 
 /* homepage styling */ 
 .homepage {
-    background-image: url("images/homepage.png");
+    background-image: url("images/homepage.jpg");
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -272,6 +272,7 @@ a:hover {
 }
 .mainsub-text1 {
     position: relative;
+    width: auto;
     height: auto;
     font-family: inherit;
     font-style: normal;
@@ -339,8 +340,10 @@ a:hover {
 }
 .looking-link {
     position: relative;
-    width: 25%;
+    width: auto;
     font-size: 24px;
+    text-align: right;
+    padding-bottom: 10%;
 }
 .looking-link a {
     text-align: right;
@@ -464,7 +467,7 @@ a:hover {
 
 /* biking vs public transport styling */
 .bikingvspublictransport {
-    background-image: url("images/publictransport.png");
+    background-image: url("images/explorethecitybybike.jpg");
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
