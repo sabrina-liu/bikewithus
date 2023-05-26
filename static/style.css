@@ -391,7 +391,7 @@ a:hover {
     width: 200%;
 }
 #tips-image2{
-    width: 150%;
+    width: 240%;
 }
 
 /* page body styling */
@@ -537,7 +537,7 @@ a:hover {
     width: 15%;
 }
 #bike-look {
-    top: 108%;
+    top: 110%;
 }
 
 /* west side story page styling */
@@ -741,11 +741,10 @@ a:hover {
     margin-bottom: 1.5%;
 }
 #footer-home3 {
-    top: 300%;
+    top: 102%;
     background-color: #FAFAFA;
     font-size: 15px;
     margin-bottom: 1.5%;
-    border: 2px black dotted; 
 }
 .footer-subcontainer {
     position: relative; 
@@ -755,7 +754,6 @@ a:hover {
     float: left;
 }
 .footer-title {
-
     margin-left: 3%;
     font-size: 30px;
 }
