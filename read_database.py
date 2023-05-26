@@ -7,7 +7,11 @@ import pandas as pd
 # .db file directory is defined in "path" 
 # .db file name is added to the "path" in "database" 
 
+<<<<<<< HEAD
 path = '/Users/eunjeongchoi/Desktop/finalbikewithus/instance'
+=======
+path = '/Users/calebagoha/Desktop/bwu A/finalbikewithus/instance'
+>>>>>>> 4863e91187919a6b8e7c3cbe3bb0c008efcf6fa0
 database = path + '/data.db'
 conn = sqlite3.connect(database)
 
