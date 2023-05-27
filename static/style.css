@@ -388,8 +388,7 @@ a:hover {
 
 /* tips home-page styling */
 .tips-home {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/tips.png);
-
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/tips.jpeg);
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -476,7 +475,7 @@ a:hover {
 
 /* biking vs public transport styling */
 .bikingvspublictransport {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/explorethecitybybike.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/explorethecitybybike.jpeg);
 
     position: absolute;
     background-size: cover;
@@ -556,7 +555,7 @@ a:hover {
 
 /* west side story page styling */
 .westside-home {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/westside-home.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/westside-home.jpeg);
 
     position: absolute;
     background-size: cover;
