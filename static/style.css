@@ -328,6 +328,9 @@ a:hover {
 .mainsub-link2 a:hover {
     text-decoration: underline;
 }
+#explore-image {
+    width: 150%;
+}
 
 /* looking section styling */
 .looking-block-home {
