@@ -332,6 +332,12 @@ a:hover {
     width: 150%;
 }
 
+/* footer image */
+.footer-image {
+    width: 50%;
+}
+
+
 /* looking section styling */
 .looking-block-home {
     position: relative;
