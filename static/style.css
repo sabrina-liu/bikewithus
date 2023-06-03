@@ -577,6 +577,10 @@ a:hover {
 #map-block {
     top: 40%;
 }
+
+#map-block iframe {
+    border-radius: 10px;
+}
 #map-position {
     width: 70%;
     left: 0;
@@ -587,9 +591,12 @@ a:hover {
     text-align: center;
     padding: 2.5%;
     margin: 0;
+    margin-top: 23%;
+    margin-bottom: 0;
+    border: black;
 }
 #places-position {
-    top: 60%;
+    top: 5%;
 }
 #places-size {
     width: 80%
