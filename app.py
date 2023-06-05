@@ -71,7 +71,7 @@ def track_time(response):
         previous_path = 'HomePage'
 
     # Every time the user requests /learn_more route, time spent in the previous path is recorded in the database with log_data(). 
-    if request.path == '/westsidestory':
+    if request.path == '/bikeroute':
         log_data()
         # Update start_time and previous_path
         start_time = datetime.now()
@@ -89,17 +89,11 @@ def track_time(response):
         start_time = datetime.now()
         previous_path = 'Road Rules'
 
-    if request.path == '/bikingvspublictransport':
+    if request.path == '/bikeroute':
         log_data()
         # Update start_time and previous_path
         start_time = datetime.now()
-        previous_path = 'Biking vs Public transport'
-
-    if request.path == '/westsidestory':
-        log_data()
-        # Update start_time and previous_path
-        start_time = datetime.now()
-        previous_path = 'Westside Story'
+        previous_path = 'The Bike Route'
 
     if request.path == '/rental':
         log_data()
@@ -139,9 +133,9 @@ def fivereasons():
     return render_template("fivereasons.html")
 
 
-@app.route("/westsidestory")
-def westsidestory():
-    return render_template("westsidestory.html")
+@app.route("/bikeroute")
+def bikeroute():
+    return render_template("bikeroute.html")
 
 @app.route("/rental")
 def rental():
