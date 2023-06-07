@@ -257,7 +257,7 @@ a:hover {
 }
 #homepage-subtitle {
     text-align: end;
-    padding-right: 8%;
+    margin-right: 8%;
 }
 .mainsub-block {
     position: absolute;
@@ -322,7 +322,7 @@ a:hover {
     float: left; 
     width: auto;
     margin-right: 2%;
-    margin-left: 2%;
+    margin-left: 3.5%;
 }
 .mainsub-block2-bg {
     position: relative;
@@ -355,6 +355,7 @@ a:hover {
     text-decoration: underline;
 }
 #explore-image {
+    margin-top: 1%;
     width: 150%;
 }
 
@@ -466,7 +467,12 @@ a:hover {
     font-size: 40px;
     line-height: 50px;
 }
+.sub-body-title a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
 .sub-body-subtitle {
+    margin-top: 0.5em;
     font-weight: 400;
     font-size: 32px;
     line-height: 40px;
