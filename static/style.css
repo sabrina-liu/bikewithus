@@ -385,7 +385,7 @@ a:hover {
 }
 .looking-subtitle a:hover {
     text-decoration: underline;
-    text-underline-offset: 0.3em;
+    text-underline-offset: 0.25em;
 }
 .looking-link {
     position: relative;
@@ -558,6 +558,11 @@ a:hover {
     line-height: 51px;
     text-align: center;
 }
+.subpage1-title img {
+    width: 5%;
+    vertical-align: middle;
+    padding-right: 0.7%;
+}
 .subpage1-subtitle1 {
     position: relative;
 
@@ -571,6 +576,7 @@ a:hover {
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
+    margin-top: 0.2em;
 }
 .mainsub-block-reason {
     position: relative;
