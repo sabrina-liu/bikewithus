@@ -379,20 +379,21 @@ a:hover {
     position: relative;
     width: 60%;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 36px;
     line-height: 48px;
     margin-bottom: 0.1em;
 }
 .looking-subtitle a:hover {
     text-decoration: underline;
-    text-underline-offset: 0.25em;
+    text-underline-offset: 0.3em;
 }
 .looking-link {
     position: relative;
     width: auto;
     font-size: 24px;
-    text-align: right;
-    padding-bottom: 10%;
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
 .looking-link a {
     text-align: right;
@@ -402,10 +403,8 @@ a:hover {
 .looking-link a:hover {
     text-decoration: underline;
 }
-#left-link {
-    margin-top: 1em;
-    text-align: left;
-    margin-bottom: 1em;
+#look-width {
+    width: auto;
 }
 .text {
     position: absolute;
@@ -616,10 +615,10 @@ a:hover {
 }
 #tips-margin {
     margin-left: 10%;
-    margin-right: 3%;
+    margin-right: 2.5%;
 }
 #look-margin {
-    margin-left: 3%;
+    margin-left: 2.5%;
     margin-right: 10%;
 }
 /* bike route page styling */
