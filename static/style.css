@@ -531,8 +531,8 @@ a:hover {
     width: 100%;
 }
 
-/* biking vs public transport styling */
-.bikingvspublictransport {
+/* why bike styling */
+.whybike {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/explorethecitybybike.jpeg);
 
     position: absolute;
@@ -580,9 +580,6 @@ a:hover {
     width: 100%;
     margin: auto;
     height: auto;
-}
-#fivereasons {
-    top: 40%;
 }
 #reason1-block {
     left: 0;
