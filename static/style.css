@@ -402,6 +402,11 @@ a:hover {
 .looking-link a:hover {
     text-decoration: underline;
 }
+#left-link {
+    margin-top: 1em;
+    text-align: left;
+    margin-bottom: 1em;
+}
 .text {
     position: absolute;
     width: auto;
@@ -427,7 +432,6 @@ a:hover {
     position: relative;
     width: 100%;
 }
-
 /* tips home-page styling */
 .tips-home {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/tips.jpeg);
@@ -605,9 +609,19 @@ a:hover {
     width: 15%;
 }
 #bike-look {
-    top: 110%;
+    top: 105%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
-
+#tips-margin {
+    margin-left: 10%;
+    margin-right: 3%;
+}
+#look-margin {
+    margin-left: 3%;
+    margin-right: 10%;
+}
 /* bike route page styling */
 .bikeroute-home {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/westside-home.jpeg);
