@@ -689,7 +689,7 @@ a:hover {
     top: 85%;
     padding-left: 10%;
 
-    font-size: 36px;
+    font-size: 27px;
     color: white;
     font-style: normal;
     font-weight: 700;
@@ -707,7 +707,7 @@ a:hover {
     right: 0;
 
     background-color: black;
-    visibility: hidden;
+    visibility: visible;
     opacity: 0;
     border-radius: 10px;
 
