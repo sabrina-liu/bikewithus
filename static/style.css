@@ -272,22 +272,6 @@ a:hover {
     height: auto;
     margin: 0 auto;
 }
-.sub-body-title {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    width: 100%;
-    top: 0;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 50px;
-}
-.sub-body-subtitle {
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 40px;
-}
 #right-align {
     text-align: right;
     left: 0;
@@ -397,6 +381,11 @@ a:hover {
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
+    margin-bottom: 0.1em;
+}
+.looking-subtitle a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
 }
 .looking-link {
     position: relative;
@@ -460,6 +449,9 @@ a:hover {
 /* page body styling */
 .sub-body-title {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     width: 100%;
     top: 0;
 
@@ -473,6 +465,11 @@ a:hover {
 }
 .sub-body-subtitle {
     margin-top: 0.5em;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+.sub-body-subtitle {
     font-weight: 400;
     font-size: 32px;
     line-height: 40px;
