@@ -625,16 +625,14 @@ a:hover {
     margin-right: 10%;
 }
 /* bike route page styling */
-.bikeroute-home {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/westside-home.jpeg);
+#bikeroute-home {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
 
     position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
+    object-fit: cover;
     top: 0;
     left: 0;
+    z-index: -1;
 }
 
 #map-block iframe {
