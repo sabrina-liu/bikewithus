@@ -515,6 +515,12 @@ a:hover {
     width: auto;
     margin-right: 2%;
 }
+#homepage-text3 {
+    display: flex;
+    float: left; 
+    width: auto;
+    margin-left: 2%;
+}
 #park-image {
     width: 75%;
 }
