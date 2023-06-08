@@ -28,5 +28,9 @@ def bikeroute():
 def rental():
     return render_template("rental.html")
 
+@app.route("/tricks")
+def tricks():
+    return render_template("tricks.html")
+
 if __name__ == '__main__':
     app.run(port=3000, debug=True)
