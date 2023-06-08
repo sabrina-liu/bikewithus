@@ -710,7 +710,6 @@ a:hover {
     filter: brightness(0.6);
     z-index: -1;
     border-radius: 10px;
-    g
 }
 #location-name {
     width: auto;
@@ -810,7 +809,7 @@ a:hover {
     height: 50vh;
     margin: 0.5%;
     float: left;
-    overflow: auto;
+    overflow: hidden;
 
     border: 4px black solid;
     border-radius: 15px;
