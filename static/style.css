@@ -504,8 +504,7 @@ a:hover {
     width: auto;
     margin-right: 2%;
 }
-#park-image {
-    width: 80%;
+#park-image img {
     border-radius: 10px;
 }
 #roadrule-end {
@@ -513,10 +512,10 @@ a:hover {
     margin: auto;
 }
 #roadrules-title {
-    margin-top: 3%;
+    margin-top: 2.5%;
 }
 #roadrules-subtitle {
-
+    margin-top: 0;
 }
 #roadrules-text{
     margin-top: 0;
@@ -524,10 +523,7 @@ a:hover {
     margin-block-start: 0;
     margin-block-end: 0;
     padding-top: 0;
-}
-.road-sign-image {
-    width: 100%;
-    margin: auto;
+    margin-right: 4%;
 }
 .road-sign-image img {
     position: relative;
@@ -538,7 +534,14 @@ a:hover {
     border-radius: 10px;
     margin-right: 3%;
 }
-
+#parking-content {
+    padding: 0;
+    margin: 0;
+    margin-left: 1%;
+}
+#roadrules-block {
+    padding: 2%;
+}
 /* why bike styling */
 .whybike {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/explorethecitybybike.jpeg);
