@@ -674,7 +674,7 @@ a:hover {
     filter: brightness(0.9);
 }
 #map-position {
-    width: 75%;
+    width: 75.5%;
     margin: auto;
 }
 .begin-route {
@@ -709,10 +709,10 @@ a:hover {
 }
   
 #places-position {
-    top: 5%;
+    top: 0.5%;
 }
 #places-size {
-    gap: 10px;
+    gap: 1%;
     width: 80%
 }
 .route-locations {
@@ -861,7 +861,7 @@ a:hover {
 /* rent-a-bike page styling */
 .rent-home {
     background-image: url("images/rental-home.png");
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(images/rental-home.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/rental-home.png);
 
     position: absolute;
     background-size: cover;
@@ -871,9 +871,13 @@ a:hover {
     top: 0;
     left: 0;
 }
+#map-position1 {
+    width: 65%;
+    margin: auto;
+}
 .box {
     position: relative;
-    width: 25%; 
+    width: 25.2%; 
     height: 50vh;
     margin: 0.5%;
     float: left;
