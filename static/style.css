@@ -505,7 +505,8 @@ a:hover {
     margin-right: 2%;
 }
 #park-image {
-    width: 75%;
+    width: 80%;
+    border-radius: 10px;
 }
 #roadrule-end {
     left: 0;
@@ -513,6 +514,9 @@ a:hover {
 }
 #roadrules-title {
     margin-top: 3%;
+}
+#roadrules-subtitle {
+
 }
 #roadrules-text{
     margin-top: 0;
