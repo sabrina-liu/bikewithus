@@ -713,7 +713,7 @@ a:hover {
 }
 #places-size {
     gap: 1%;
-    width: 80%
+    width: 79%;
 }
 .route-locations {
     position: relative;
@@ -872,12 +872,21 @@ a:hover {
     left: 0;
 }
 #map-position1 {
-    width: 65%;
+    width: 68%;
     margin: auto;
+    margin-bottom: 2.5%;
+}
+#places-size1 {
+    gap: 4%;
+    margin-bottom: 2%;
+    width: 80%;
+}
+#footer-rental {
+    margin-top: 10%;
 }
 .box {
     position: relative;
-    width: 25.2%; 
+    width: 38vh; 
     height: 50vh;
     margin: 0.5%;
     float: left;
@@ -886,6 +895,14 @@ a:hover {
     border: 4px black solid;
     border-radius: 15px;
 }
+
+.box:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+
 .place-image {
     display: block;
     position: absolute;
