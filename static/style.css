@@ -504,12 +504,6 @@ a:hover {
     width: auto;
     margin-right: 2%;
 }
-#homepage-text3 {
-    display: flex;
-    float: left; 
-    width: auto;
-    margin-left: 2%;
-}
 #park-image {
     width: 75%;
 }
@@ -517,8 +511,15 @@ a:hover {
     left: 0;
     margin: auto;
 }
-#roadrule-title {
-    text-align: center;
+#roadrules-title {
+    margin-top: 3%;
+}
+#roadrules-text{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-top: 0;
 }
 .road-sign-image {
     width: 100%;
@@ -529,9 +530,9 @@ a:hover {
     width: 100%;
 }
 #sharkteeth-img {
-    width: 50%;
+    width: 85%;
     border-radius: 10px;
-    margin-right: 2%;
+    margin-right: 3%;
 }
 
 /* why bike styling */
