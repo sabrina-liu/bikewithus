@@ -334,8 +334,8 @@ a:hover {
 .mainsub-link2 {
     position: relative;
     width: 40%;
-    text-align: right;
-    margin-left: 60%;
+    text-align: left;
+    margin-left: 3.5%;
     font-family: inherit;
     font-style: normal;
     font-weight: 400;
@@ -343,7 +343,7 @@ a:hover {
     line-height: 29px; 
 }
 .mainsub-link2 a {
-    text-align: right;
+    text-align: left;
     text-decoration: none;
     color: black;
 }
@@ -511,12 +511,12 @@ a:hover {
     left: 48%;
 }
 #left-link {
-    margin-left: 0;
+    margin-top: 10px;
     width: 60%;
 }
 #left-link1 {
     width: 63.5%;
-    margin-left: 0;
+    margin-left: 3.5%;
     
 }
 #homepage-text2 {
